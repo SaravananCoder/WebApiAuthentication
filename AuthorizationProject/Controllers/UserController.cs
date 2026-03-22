@@ -12,6 +12,7 @@ namespace AuthorizationProject.Controllers
 
         [HttpGet]
     
+        //Get Full User
         public IActionResult GetUsers()
         {
             var users = new List<object>()

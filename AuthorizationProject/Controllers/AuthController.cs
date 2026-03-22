@@ -91,7 +91,7 @@ namespace AuthorizationProject.Controllers
 
         //    return new JwtSecurityTokenHandler().WriteToken(token);
         //}
-
+        //token generate process
         private string GenerateToken(string username, string role)
         {
             var jwtSettings = _configuration.GetSection("Jwt");
